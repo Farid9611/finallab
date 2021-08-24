@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/page3.css">
+    <title>My Website</title>
+    
+</head>
+<style>
+
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer {
+	min-height: 100px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+</style>
+<body>
+ <!--Header-->
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                 <a href="#form"><h1>Vaccination forms</h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="#hero" data-after="Home">&#9750;Home</a></li>
+                    <li><a href="#form" data-after="Form">&#9750;Form</a></li>
+                    <li><a href="#footer" data-after="Footer">&#8595;Footer</a></li>
+                    <li><a href="/index.html" data-after="MainPage">&#10554;MainPage</a></li>
+                    <li><a href="/page1.html" data-after="TigerPage">&#10153;TigerPage</a></li>
+                    <li><a href="/page2.html" data-after="CalculatorPage">&#10153;CalculatorPage</a></li>
+            </div> 
+        </div>
+    </div>
+</section>
+
+ <!--End header-->
+    <!--Hero Section-->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello there,<span></span></h1>
+                <h1>Welcome!<span></span></h1>
+                <h1>Please press button below<span></span></h1>
+                <a href="#form" type="button" class="cta">Click here to fill the form</a>
+            </div>
+        </div>
+    </section>
+    <!--End Hero Section-->
+
+
+<!--Reminder Section-->
+<section id="remind">
+    <div class="remind__header">
+        <h2>Stay Safe Everyone</h2>
+        <h2>Get Vaccine and Stay Healty</h2>
+    </div>
+
+    <div class="remind container__2">
+        <div class="remind__image__sop">
+            <img src="/image3/poster1.webp">
+            <img src="/image3/poster2.webp">
+            <img src="/image3/poster3.webp">
+        </div>
+
+        <div class="remind__image__vaccine">
+            <img src="/image3/image_vaccine1.jpg">
+        </div>
+    </div>
+</section>
+<!--End Reminder Section-->
+
+
+<!--Section Form-->
+<section id="form">
+        <div class="form container__3">
+            <div class="form__header">
+                <h2>Please fill the form below:</h2>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+    
+                    <label>First name</label>
+                    <input type="text" name="firstname" placeholder="Ex:Ali"/> 
+                    <label>lastname</label>
+                    <input type="text" name="lastname" placeholder="Ex:Abu"/> 
+                    <label>Age</label>
+                    <input type="text" name="age" placeholder="Ex:20"/> 
+                    <label>Identification Card Number</label>
+                    <input type="text" name="iccard" placeholder="Ex:90xxxx-xx-xxxx"/> 
+                    <label>Telephone Number</label>
+                    <input type="text" name="telephonenumb" placeholder="Ex:01x-xxxx-xxxx"/> 
+
+                    <h4>Gender</h4>
+                    <input type="radio" name="gender" value="male" />Male
+                    <input type="radio" name="gender" value="female" />Female
+                    <input type="radio" name="gender" value="other" />Other
+
+                    <br/>
+
+                    <h4>Allergies</h4>
+                    <input type="radio" name="allergies" value="Drug Allergy" />Drug Allergy
+                    <input type="radio" name="allergies" value="Food Allergy" />Food Allergy
+                    <input type="radio" name="allergies" value="Insect Allergy" />Insect Allergy
+                    <input type="radio" name="allergies" value="Latex Allergy" />Latex Allergy
+                    <input type="radio" name="allergies" value="Mold Allergy" />Mold Allergy
+                    <input type="radio" name="allergies" value="other Allergy" />Other Allergy
+                   
+                    <br/>
+        
+                    <label>Email</label>
+                    <input type="text" name="Email" placeholder="mail@example.com"/>
+                    <label>Another Email</label>
+                    <input type="text" name="Email" placeholder="mail@example.com"/>
+                    <label>Nationality</label>
+                    <input type="text" name="Nationality" placeholder="Ex:Malaysian"/> 
+                    <label>Date:</label>
+                    <input type="date" name="Date" placeholder="00/00/0000"/> <br/>
+                    
+                    <br/>
+                    
+                    <textarea placeholder="Write message here"name="message"></textarea><br/>
+                    <button type="submit" id="submit">Send</button>
+                    <button type="reset" id="Reset">Reset</button>
+                    
+                 <h2>Having problem on filling the form ? Call us at 088-989-913</h2>
+                </form>
+            </div>
+        </div>
+</section>        
+
+<!--End Section-->
+
+<!--Start Bottom Section-->
+<section id="bottom">
+    <div class="bottom-buttons">
+        <a href="#hero"><h2>Top Content</h2></a>
+        <a href="#remind"><h2>Remind Section</h2></a>
+    </div>
+</section>
+<!--End Bottom Section-->
+
+
+<!--Footer-->
+    <section id="footer">
+        <div class="footer container">
+            <p>Copyright© By Farid.</p>
+        </div>
+        </section>
+<!--End of Footer-->
+<script src="/JS/main.js"></script>
+</body>
+</html>

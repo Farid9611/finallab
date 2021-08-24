@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/page2.css">
+    <title>My Website</title>
+    
+</head>
+<style>
+
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer {
+	min-height: 100px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+</style>
+<body>
+ <!--Header-->
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                 <a href="#calculator"><h1>Calculator Time!</h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="#hero" data-after="Home">&#9750;Home</a></li>
+                    <li><a href="#footer" data-after="Footer">&#8595;Footer</a></li>
+                    <li><a href="/index.html"data-after="MainPage">&#10554;MainPage</a></li>
+                    <li><a href="/page1.html"data-after="TigerPage">&#10153;TigerPage</a></li>
+                    <li><a href="/page3.html"data-after="VaccinePage">&#10153;VaccinePage</a></li>
+            </div> 
+        </div>
+    </div>
+</section>
+
+ <!--End header-->
+    <!--Hero Section-->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello<span></span></h1>
+                <h1>This is My<span></span></h1>
+                <h1>Calculator<span></span></h1>
+                <a href="#calculator" type="button" class="cta">USE ME</a>
+            </div>
+        </div>
+    </section>
+    <!--End Hero Section-->
+
+
+<!--calculator Section-->
+
+<section id="calculator">
+<div class="container__2">
+    <div class="calculator__header">
+        <h3> This Is My Grid Calculator</h3>
+    </div>
+
+    <div class="calculator">
+    <!-- calculator input -->
+    <div class="calculator-display">
+          <input type="number" />
+    </div>
+    <!-- buttons -->
+     <div class="calculator-buttons">
+        <button class="calctr-button is-clear">C</button>
+        <button class="calctr-button">&plus;</button>
+
+        <button class="calctr-button">7</button>
+        <button class="calctr-button">8</button>
+        <button class="calctr-button">9</button>
+        <button class="calctr-button">&minus;</button>
+
+        <button class="calctr-button">4</button>
+        <button class="calctr-button">5</button>
+        <button class="calctr-button">6</button>
+        <button class="calctr-button">&times;</button>
+
+        <button class="calctr-button">1</button>
+        <button class="calctr-button">2</button>
+        <button class="calctr-button">3</button>
+        <button class="calctr-button">&divide;</button>
+
+        <button class="calctr-button is-zero">0</button>
+        <button class="calctr-button is-equals">&equals;</button>
+        </div>
+    <!-- End buttons -->    
+      </div>
+    </div>  
+</section>
+<!--End calculator Section-->
+
+<!--Start Bottom Section-->
+<section id="bottom">
+    <div class="bottom-buttons">
+        <a href="#hero"><h2>Top Content</h2></a>
+        <a href="#calculator"><h2>Calculator Section</h2></a>
+    </div>
+</section>
+<!--End Bottom Section-->
+
+<!--Footer-->
+    <section id="footer">
+        <div class="footer container">
+            <p>Copyright© By Farid.</p>
+        </div>
+        </section>
+<!--End of Footer-->
+<script src="/JS/main.js"></script>
+</body>
+</html>
